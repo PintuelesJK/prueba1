@@ -1,10 +1,10 @@
 describe('Prueba 1', () => {
-    it('primer prueba', () => {
-        browser.url('https://demoqa.com')
+    it('primer prueba', async () => {
+        await browser.url('https://webdriver.io/')
 
           //assert title
           console.log('Test');
-          expect(browser).tohavetitle('DEMOQA')
+        await expect(browser).toHaveTitleContaining('WebdriverIO')
     });
 
 });
