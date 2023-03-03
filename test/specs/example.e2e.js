@@ -3,6 +3,7 @@ describe('Prueba 1', () => {
         browser.url('https://demoqa.com')
 
           //assert title
+          console.log('Test');
           expect(browser).tohavetitle('DEMOQA')
     });
 
