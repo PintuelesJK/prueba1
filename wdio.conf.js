@@ -23,7 +23,7 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/example.e2e.js'
+        './test/specs/**/txpath.e2e.js'
     ],
     // Patterns to exclude.
     exclude: [
